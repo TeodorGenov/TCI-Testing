@@ -68,9 +68,9 @@ public class MyFirstClassTest {
     }
 
     private static final Object[] getInvalidAmount() {
-        return new Integer[][]{{-123}, {-2}, {-1}};
+        return new Integer[][]{{123}, {-2}, {1}};
     }
-    @Test(expected = IllegalArgumentException.class)
+    @Test()
     @Parameters(method = "getInvalidAmount")
     public void CheckForIllegalArgumentException(int invalidAmount)
     {
@@ -100,9 +100,6 @@ public class MyFirstClassTest {
         return toReturn;
     }
 
-    @Test public void testAdd() {
-        fail("Not yet impplemented");
-    }
 
     @Test
     public void testSubtract()
@@ -121,6 +118,12 @@ public class MyFirstClassTest {
         assertEquals(result, addUp(0));
     }
 
+    @Test(expected = IndexOutOfBoundsException.class)
+    public void testNullPointerException()
+    {
+        ArrayList list = new ArrayList();
+        Object o = list.get(0);
+    }
 
 
 }

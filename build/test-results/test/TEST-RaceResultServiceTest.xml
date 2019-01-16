@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RaceResultServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-01-16T11:12:03" hostname="Teodor-HP-Spectre" time="0.031">
+  <properties/>
+  <testcase name="testIfRemovedSubscriberReceivesMessages" classname="RaceResultServiceTest" time="0.021"/>
+  <testcase name="subscribedClientShouldReceiveMessages" classname="RaceResultServiceTest" time="0.006"/>
+  <testcase name="sendMessageToMultipleClients" classname="RaceResultServiceTest" time="0.001"/>
+  <testcase name="notSubscribedClientsShouldNotReceiveMessages" classname="RaceResultServiceTest" time="0.0"/>
+  <testcase name="testIfOneClientCanSubscribeTwoTime" classname="RaceResultServiceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

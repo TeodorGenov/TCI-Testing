@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Week3MockitoTesting" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-01-16T11:12:03" hostname="Teodor-HP-Spectre" time="0.006">
+  <properties/>
+  <testcase name="[0] 10, DOLLAR (CheckForIllegalArgumentException)" classname="Week3MockitoTesting" time="0.0"/>
+  <testcase name="[1] 10, EURO (CheckForIllegalArgumentException)" classname="Week3MockitoTesting" time="0.001"/>
+  <testcase name="MockitoTestIfCarIsACar" classname="Week3MockitoTesting" time="0.0"/>
+  <testcase name="MockitoTestingCar" classname="Week3MockitoTesting" time="0.0"/>
+  <testcase name="SomeTest" classname="Week3MockitoTesting" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
